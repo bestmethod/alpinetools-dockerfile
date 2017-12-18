@@ -4,6 +4,8 @@ RUN \
   apk-install \
     curl \
     openssh-client \
+    rsync \
+    git \
     tar && \
   apk add --update bash
 
